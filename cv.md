@@ -4,6 +4,7 @@
 * **Telegram:** [@nura_nurbekova](https://t.me/nura_nurbekova)
 * **Discord:** nuranurbekova
 * **E-mail:** nura.nurbekova.kk@gmail.com
+* [LinkedIn](linkedin.com/in/нура-нурбекова-12757b222)
 
 ## About me
 I am an accountant with 5 years of experience. I’m taking online courses to become a Web Developer. I’m punctual and responsible person.
