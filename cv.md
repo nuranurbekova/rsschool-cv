@@ -20,3 +20,17 @@ function multiply(a, b){
     return (a * b)
 }
 ```
+
+## Courses
+* CDAC, Noida Basic IT "Fundamental and Applications"
+* Html, CSS and Javascript [ru-code-basics](https://ru.code-basics.com/) (CSS and JS in process)
+* Responsive Web Design [FreeCodeCamp](https://www.freecodecamp.org/)
+![FCC Certification](FCC.png)
+
+## Languages
+* Kyrgyz - Native
+* Russian - Fluent
+* Turkish - Intermediate
+* English - Intermediate [EFSET](https://www.efset.org/quick-check/)
+![English test](en.png)
+
