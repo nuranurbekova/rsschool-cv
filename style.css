@@ -321,3 +321,42 @@ pre {
 .footer {
     background-color: rgba(182, 179, 179, .3);
 }
+
+@media (max-width: 768px) {
+    .nav-list {
+        display: block;
+        text-align: left;
+    }
+    .nav-link {
+        line-height: 35px;
+        padding: 0;
+    }
+    .section-wrapper {
+        padding: 0 20px;
+    }
+    .education-container {
+        grid-template-columns: 1fr 1fr;
+    }
+    .languages-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .contact-container {
+        text-align: center;
+    }
+    pre {
+        font-size: 12px;
+    }
+    .footer-wrapper {
+        display: block;
+        text-align: center;
+        padding: 10px;
+    }
+    .skills-subtitle,
+    .skills-range {
+        font-size: 12px;
+    }
+    .fab {
+        font-size: 30px;
+    }
+}
