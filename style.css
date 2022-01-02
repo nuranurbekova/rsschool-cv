@@ -69,3 +69,225 @@ body {
 .section-wrapper {
     padding-left: 100px;
 }
+
+
+/*About section*/
+
+#about {
+    margin-bottom: 70px;
+}
+
+.about-main-title {
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.about-title {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.about-description {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.about-emoji {
+    color: #fbff00;
+}
+
+.about-sign {
+    color: #fbff00;
+}
+
+.about-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+
+/*Skills section*/
+
+#skills {
+    margin-bottom: 70px;
+}
+
+.skills-subtitle {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin: 0 0 8px;
+}
+
+.skills-range {
+    padding-right: 20px;
+    border-radius: 0 10px 10px 0;
+    background-color: #123EAB;
+    color: #fff;
+}
+
+.skills-container {
+    background-color: #ddd;
+    text-align: right;
+    margin-bottom: 30px;
+}
+
+.html {
+    width: 80%;
+}
+
+.css {
+    width: 70%;
+}
+
+.git {
+    width: 60%;
+}
+
+.js {
+    width: 20%;
+}
+
+.figma {
+    width: 70%;
+}
+
+.photoshop {
+    width: 50%;
+}
+
+
+/*Education/courses section*/
+
+#education {
+    margin-bottom: 70px;
+}
+
+.education-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.education-title {
+    margin-bottom: 30px;
+}
+
+.edu-list {
+    list-style: none;
+    padding: 0 20px 0 0;
+}
+
+.edu-item {
+    padding: 15px 0 0;
+    position: relative;
+}
+
+.edu-item a {
+    color: #fff;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.edu-item a:hover {
+    color: #fbff00;
+}
+
+.edu-item--before::before {
+    position: absolute;
+    content: "";
+    border-width: 4px 20px;
+    border-style: solid;
+    border-color: #fbff00;
+    top: 0px;
+}
+
+
+/*Code exemples*/
+
+#code {
+    margin-bottom: 70px;
+    border-radius: 5px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.code-function {
+    color: #7992d1;
+}
+
+.code-function-name {
+    color: #ecee71;
+}
+
+.code-statements {
+    color: #b158e6;
+}
+
+.code-bln {
+    color: rgb(231, 98, 98);
+}
+
+pre {
+    font-size: 18px;
+}
+
+
+/*Languages section*/
+
+#languages {
+    margin-bottom: 70px;
+}
+
+.languages-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.languages-title {
+    margin-bottom: 20px;
+}
+
+.languages-list {
+    list-style: none;
+    font-size: 24px;
+    padding: 0;
+}
+
+.languages-item-level {
+    font-size: 18px;
+}
+
+
+/*Contact section*/
+
+#contacts {
+    margin-bottom: 70px;
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.contacts-item {
+    list-style: none;
+    color: #fff;
+}
+
+.contacts-title {
+    margin-bottom: 30px;
+}
+
+.fab {
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.fab:hover {
+    color: #fbff00;
+    transition: all .5s ease-out;
+}
